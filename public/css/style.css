@@ -510,6 +510,7 @@ header{
     margin: 0 auto;
     border-radius: 6px;
     padding:6px;
+    background-color: rgba(156, 154, 154, 0.178);
 }
 
 .portfolio-item-individual{
