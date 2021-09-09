@@ -436,7 +436,7 @@ header{
 }
 
 .portfolio__img{
-   
+    
     transition: 
     transform 750ms cubic-bezier(.5,0,.5,1),
     opacity 250ms linear;
@@ -450,6 +450,7 @@ header{
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img{
+    
      transform :scale(1.2);
      opacity: .80;
     
@@ -528,6 +529,11 @@ header{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.portfolio-item1{
+    background-image: url(/public/assets/project/aurora.jpg);
+    background-color: darkgrey;
 }
 
 
